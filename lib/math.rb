@@ -47,7 +47,7 @@ end
 
 def square_root(num)
   num = num.to_i
-  sqrt = num.sqrt(num)
+  sqrt = Math.sqrt(num)
   puts sqrt
   sqrt
 end
